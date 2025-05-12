@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "UMS Survey Filler",
+    "version": "1.0",
+    "description": "Automatically fill UMS surveys with a selected rating value.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+      "https://ums.asu.edu.eg/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png"
+      }
+    }
+  }
+  
